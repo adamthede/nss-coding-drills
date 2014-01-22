@@ -1,0 +1,11 @@
+body {
+  background: lightgray;
+}
+#container div:nth-child(2n) {
+  border: 2px solid lavender;
+  margin: 10px;
+}
+#container div:nth-child(2n-1) {
+  border: 2px solid black;
+  margin: 10px;
+}

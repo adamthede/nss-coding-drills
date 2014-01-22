@@ -1,0 +1,8 @@
+.evenColor {
+  color: lavender;
+  background-color: orange;
+}
+.oddColor {
+  color: orange;
+  background-color: lavender;
+}
