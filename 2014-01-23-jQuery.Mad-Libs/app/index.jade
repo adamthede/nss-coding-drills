@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Drill: Mad Libs
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/source/main.js')
+  body
+    header
+    h1 Drill: Mad Libs
+    div#top
+      input#input(type='text', placeholder='words', autofocus='true')
+      input#make-squares(type='button', value='Make Word Squares')
+      input#clear(type='button', value='Clear')
+    div#words
+    div.clear
+    div#display

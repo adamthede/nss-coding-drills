@@ -1,0 +1,20 @@
+#words {
+  float: left;
+}
+#words div {
+  background-color: lavender;
+  box-shadow: 2px 2px 2px lightgray;
+  margin: 4px;
+  padding: 4px;
+  border: 1px dotted orchid;
+  float: left;
+  display: inline-block;
+}
+.clear {
+  clear: both;
+}
+#display {
+  float: bottom;
+  margin: 4px;
+  padding: 4px;
+}

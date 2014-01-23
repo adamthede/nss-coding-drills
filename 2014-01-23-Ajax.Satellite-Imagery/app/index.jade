@@ -1,0 +1,18 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Drill: Satellite Imagery
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/source/main.js')
+  body
+    header
+    h1 Drill: Satellite Imagery
+    input#get-zip(type='text', placeholder='Zip Code', autofocus='true')
+    input#get-imagery(type='button', value='Get Satellite Imagery')
+    #container
+      img#img1
+      img#img2
+      img#img3
