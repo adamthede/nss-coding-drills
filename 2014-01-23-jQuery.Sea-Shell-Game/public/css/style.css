@@ -1,0 +1,41 @@
+body {
+  margin: 50px 0px;
+  padding: 0px;
+  text-align: center;
+}
+input {
+  font-size: 24px;
+}
+#shells div {
+  font-size: 24px;
+  background-color: lavender;
+  box-shadow: 2px 2px 2px lightgray;
+  margin: 4px;
+  padding: 4px;
+  border: 1px dotted orchid;
+  text-align: center;
+  display: inline-block;
+}
+.clear {
+  clear: both;
+}
+#win-lose p {
+  font-size: 24px;
+  background-color: tomato;
+  box-shadow: 2px 2px 2px lightgray;
+  float: bottom;
+  border: 1px dotted gray;
+  margin: 4px;
+  padding: 4px;
+  display: inline-block;
+}
+#stats p {
+  font-weight: bold;
+  font-size: 24px;
+  background-color: lightblue;
+  box-shadow: 2px 2px 2px lightgray;
+  border: 1px dotted gray;
+  margin: 4px;
+  padding: 4px;
+  display: inline-block;
+}
